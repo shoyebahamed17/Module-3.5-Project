@@ -1,0 +1,114 @@
+/* Google Font import(font-family: "Roboto", serif;) */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.nav-link:hover {
+  color: red; /* Change color on hover */
+}
+
+.carousel-caption {
+  right: 0;
+  left: auto;
+  text-align: right;
+  margin-right: 30px;
+}
+
+hr {
+  border-top: 2px dashed;
+}
+
+.progress-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.progress-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.progress-circle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
+.progress-circle svg {
+  transform: rotate(-90deg);
+}
+.progress-circle circle {
+  fill: none;
+  stroke-width: 8;
+  stroke-linecap: round;
+}
+.progress-background {
+  stroke: #eee;
+}
+.progress-bar {
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+}
+.progress-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.progress-desc {
+  font-size: 14px;
+  color: gray;
+  max-width: 200px;
+}
+
+.card {
+  border: none;
+}
+
+.contact-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+.info-box {
+  background: #effff4;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.i-b {
+  background: #ffffe9;
+}
+
+.i-b1 {
+  background: #d0ecfe70;
+}
+.contact-form input,
+.contact-form textarea {
+  background: #f8f9fa;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+}
+.contact-form textarea {
+  height: 240px;
+  resize: none;
+}
+.send-btn {
+  background: #ff4d4d;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+}
